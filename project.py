@@ -7,9 +7,10 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 import openai
 import base64
+import os
 
 # ChatGPT API 인증 설정
-openai.api_key = st.secrets["api_key"]
+os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 # 페이지 너비 조정
 st.set_page_config(layout="wide")
