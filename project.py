@@ -1,5 +1,4 @@
 import streamlit as st
-import tensorflow
 from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input, decode_predictions
 from tensorflow.keras.applications.inception_v3 import InceptionV3, preprocess_input as inception_preprocess_input
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2, preprocess_input as mobilenet_preprocess_input
@@ -10,7 +9,7 @@ import openai
 import base64
 
 # ChatGPT API 인증 설정
-openai.api_key = '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'
+openai.api_key = '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'
 
 # 페이지 너비 조정
 st.set_page_config(layout="wide")
