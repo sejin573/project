@@ -9,7 +9,7 @@ import openai
 import base64
 
 # ChatGPT API 인증 설정
-openai.api_key = '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'
+openai.api_key = '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'
 
 # 페이지 너비 조정
 st.set_page_config(layout="wide")
