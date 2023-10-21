@@ -1,4 +1,5 @@
 import streamlit as st
+import tensorflow
 from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input, decode_predictions
 from tensorflow.keras.applications.inception_v3 import InceptionV3, preprocess_input as inception_preprocess_input
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2, preprocess_input as mobilenet_preprocess_input
