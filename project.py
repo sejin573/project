@@ -1,4 +1,3 @@
-pip install openai==0.28
 import streamlit as st
 from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input, decode_predictions
 from tensorflow.keras.applications.inception_v3 import InceptionV3, preprocess_input as inception_preprocess_input
